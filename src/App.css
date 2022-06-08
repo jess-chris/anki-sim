@@ -83,6 +83,11 @@ code li {
   max-width: 800px;
 
   width: 100%;
+
+  word-break: keep-all;
+  overflow-wrap: break-word;
+
+  white-space: pre-line;
 }
 
 

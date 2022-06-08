@@ -26,6 +26,8 @@ const Main = ({ decks }) => {
         
         <div className='view-home'>
 
+          <h1>Anki-Sim</h1>
+
           <select className='decks-sel' onChange={(e) => setCurrentDeck(e.target.value)}>
           <option value=''>Pick a deck</option>
 
