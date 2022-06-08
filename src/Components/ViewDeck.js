@@ -92,7 +92,7 @@ const ViewDeck = ({ decks }) => {
       {showAnswer && showAnswer && (
         <div className='answer-display'>
 
-          <pre><h3>{currentQuestion?.answer}</h3></pre>
+          <h3>{currentQuestion?.answer}</h3>
 
         </div>
       )}
